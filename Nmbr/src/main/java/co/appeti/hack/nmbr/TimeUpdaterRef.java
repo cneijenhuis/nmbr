@@ -34,8 +34,13 @@ public class TimeUpdaterRef extends TimeUpdater {
         chrono.setOnChronometerTickListener(new Chronometer.OnChronometerTickListener() {
             @Override
             public void onChronometerTick(Chronometer chronometer) {
-                update();
+                update(chrono.getContext());
             }
         });
+    }
+
+    @Override
+    protected String getSharedPrefName() {
+        return SHARED_PREF + "ref";
     }
 }

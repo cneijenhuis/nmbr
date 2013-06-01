@@ -38,9 +38,14 @@ public class TimeUpdaterWidget extends TimeUpdater {
         int[] appWidgetIds = appWidgetManager.getAppWidgetIds(new ComponentName(c, NmbrWidgetProvider.class));
 
         TimeUpdaterWidget timeUpdater = new TimeUpdaterWidget();
-        timeUpdater.update();
+        timeUpdater.update(c);
         for (int i = 0; i < appWidgetIds.length; i++) {
             appWidgetManager.updateAppWidget(appWidgetIds[i], timeUpdater.getViews());
         }
+    }
+
+    @Override
+    protected String getSharedPrefName() {
+        return SHARED_PREF + "widget";
     }
 }
