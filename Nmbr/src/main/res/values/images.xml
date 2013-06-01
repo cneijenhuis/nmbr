@@ -16,6 +16,7 @@
         <item>12091855</item>
         <item>5796008</item>
         <item>2299484</item>
+        <item>13877940</item>
     </integer-array>
 <integer-array name="d4">
         <item>6995272</item>
@@ -42,6 +43,7 @@
         <item>2847781</item>
         <item>738634</item>
         <item>412962</item>
+        <item>13878085</item>
     </integer-array>
 <integer-array name="d8">
         <item>13784363</item>
@@ -96,6 +98,7 @@
 <integer-array name="d18">
         <item>1352544</item>
         <item>8787769</item>
+        <item>13878164</item>
     </integer-array>
 <integer-array name="d19">
         <item>10788478</item>
@@ -128,6 +131,7 @@
     </integer-array>
 <integer-array name="d26">
         <item>609946</item>
+        <item>13878090</item>
     </integer-array>
 <integer-array name="d27">
         <item>757041</item>
@@ -168,6 +172,7 @@
     </integer-array>
 <integer-array name="d36">
         <item>445411</item>
+        <item>13878049</item>
     </integer-array>
 <integer-array name="d37">
         <item>652414</item>
@@ -190,26 +195,28 @@
     </integer-array>
 <integer-array name="d42">
         <item>13874428</item>
+        <item>13878799</item>
     </integer-array>
 <integer-array name="d43">
-        <item>0</item>
+        <item>13878687</item>
     </integer-array>
 <integer-array name="d44">
         <item>1407801</item>
     </integer-array>
 <integer-array name="d45">
-        <item>0</item>
+        <item>13878625</item>
     </integer-array>
 <integer-array name="d46">
         <item>11034531</item>
         <item>617691</item>
         <item>11433620</item>
+        <item>13878734</item>
     </integer-array>
 <integer-array name="d47">
-        <item>0</item>
+        <item>13878529</item>
     </integer-array>
 <integer-array name="d48">
-        <item>0</item>
+        <item>13878170</item>
     </integer-array>
     <integer-array name="d49">
         <item>13559994</item>
@@ -224,7 +231,7 @@
         <item>2421508</item>
     </integer-array>
 <integer-array name="d53">
-        <item>0</item>
+        <item>13878474</item>
     </integer-array>
 <integer-array name="d54">
         <item>0</item>
@@ -237,7 +244,7 @@
         <item>1333476</item>
     </integer-array>
 <integer-array name="d57">
-        <item>0</item>
+        <item>13878270</item>
     </integer-array>
 <integer-array name="d58">
         <item>0</item>
@@ -246,6 +253,6 @@
         <item>1143248</item>
     </integer-array>
 <integer-array name="d0">
-        <item>0</item>
+        <item>13878219</item>
     </integer-array>
 </resources>
