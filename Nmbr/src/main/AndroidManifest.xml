@@ -25,6 +25,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <receiver android:name="co.appeti.hack.nmbr.NmbrWidgetProvider"
+                android:label="Nmbr">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                       android:resource="@xml/nmbr_appwidgetprovider" />
+        </receiver>
+
+        <service android:name="co.appeti.hack.nmbr.UpdateService" />
+
     </application>
 
 </manifest>
