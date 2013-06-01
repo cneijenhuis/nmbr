@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="d1">
+        <item>12345</item>
+    </integer-array>
+    <integer-array name="d2">
+        <item>12345</item>
+    </integer-array>
+</resources>
