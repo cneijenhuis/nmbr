@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <integer-array name="d1">
-        <item>12345</item>
+<integer-array name="d8">
+        <item>13540707</item>
     </integer-array>
-    <integer-array name="d2">
-        <item>12345</item>
+<integer-array name="d16">
+        <item>13544079</item>
     </integer-array>
     <integer-array name="d49">
         <item>13559994</item>
