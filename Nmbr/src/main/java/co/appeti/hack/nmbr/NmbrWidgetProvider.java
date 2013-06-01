@@ -21,14 +21,12 @@ public class NmbrWidgetProvider extends AppWidgetProvider {
         TimeUpdaterWidget.onUpdate(context, appWidgetManager);
 
         Intent intent = new Intent(context, UpdateService.class);
+        intent.setAction(UpdateService.START_SERVICE);
         context.startService(intent);
-        System.out.println("Started service, i guess");
     }
 
     @Override
     public void onReceive(Context context, Intent intent) {
-        System.out.println("on recieve");
         super.onReceive(context, intent);
-
     }
 }
