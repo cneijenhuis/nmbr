@@ -22,14 +22,14 @@
         <item>346588</item>
         <item>1918451</item>
         <item>1280527</item>
-        <item>http://www.eyeem.com/p/13874302</item>
+        <item>13874302</item>
     </integer-array>
 <integer-array name="d5">
         <item>13862706</item>
         <item>9042477</item>
         <item>2251879</item>
         <item>409046</item>
-        <item>http://www.eyeem.com/p/8821744</item>
+        <item>8821744</item>
     </integer-array>
 <integer-array name="d6">
         <item>1191332</item>
@@ -116,7 +116,7 @@
 <integer-array name="d23">
         <item>8036938</item>
         <item>785695</item>
-        <item>http://www.eyeem.com/p/13874557</item>
+        <item>13874557</item>
     </integer-array>
 <integer-array name="d24">
         <item>9079512</item>
@@ -124,7 +124,7 @@
 <integer-array name="d25">
         <item>876099</item>
         <item>597416</item>
-        <item>http://www.eyeem.com/p/13874293</item>
+        <item>13874293</item>
     </integer-array>
 <integer-array name="d26">
         <item>609946</item>
@@ -132,7 +132,7 @@
 <integer-array name="d27">
         <item>757041</item>
         <item>609954</item>
-        <item>http://www.eyeem.com/p/13874378</item>
+        <item>13874378</item>
     </integer-array>
 <integer-array name="d28">
         <item>666015</item>
@@ -189,7 +189,7 @@
         <item>1063009</item>
     </integer-array>
 <integer-array name="d42">
-        <item>http://www.eyeem.com/p/13874428</item>
+        <item>13874428</item>
     </integer-array>
 <integer-array name="d43">
         <item>0</item>
