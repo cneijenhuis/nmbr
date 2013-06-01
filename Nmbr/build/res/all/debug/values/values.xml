@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <integer-array name="d1">
+        <item>12345</item>
+    </integer-array>
+    <integer-array name="d2">
+        <item>12345</item>
+    </integer-array>
+
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
 

@@ -1,7 +1,11 @@
 package co.appeti.hack.nmbr;
 
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
 import android.os.Environment;
+import android.widget.ImageView;
 
 import com.baseapp.eyeem.androidsdk.api.EyeEmAPI;
 import com.baseapp.eyeem.androidsdk.models.EyeemPhoto;
@@ -18,15 +22,17 @@ import java.util.HashMap;
 /**
  * Created by whateverhuis on 6/1/13.
  */
-public class DownloadPhotoTask extends AsyncTask<Integer, Void, Void> {
+public class DownloadPhotoTask extends AsyncTask<Integer, Void, File> {
     private EyeEmAPI api;
+    private ImageView view;
 
-    public DownloadPhotoTask(EyeEmAPI api) {
+    public DownloadPhotoTask(EyeEmAPI api, ImageView view) {
         this.api = api;
+        this.view = view;
     }
 
     @Override
-    protected Void doInBackground(Integer... photoId) {
+    protected File doInBackground(Integer... photoId) {
         Integer id = photoId[0];
 
         EyeemPhotosQuery photosQuery = new EyeemPhotosQuery();
@@ -54,11 +60,19 @@ public class DownloadPhotoTask extends AsyncTask<Integer, Void, Void> {
                 fos.write(buffer, 0, bytesRead);
             }
             fos.close();
+
+            return f;
         }
         catch (Exception e) {
             System.err.println(e);
             e.printStackTrace();
         }
         return null;
+    }
+
+    @Override
+    protected void onPostExecute(File f) {
+        Bitmap bm = BitmapFactory.decodeFile(f.getPath());
+        view.setImageBitmap(bm);
     }
 }

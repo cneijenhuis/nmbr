@@ -6,4 +6,7 @@
     <integer-array name="d2">
         <item>12345</item>
     </integer-array>
+    <integer-array name="d49">
+        <item>13559994</item>
+    </integer-array>
 </resources>

@@ -1,6 +1,7 @@
 # incremental data. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
+1370089745000 219 4fcd02204cda3ba268fddc0ba56f5541902b4428 /home/whateverhuis/AndroidStudioProjects/NmbrProject/Nmbr/src/main/res/values/images.xml
 1370081641000 9110 c42a9658443ce97b2671f153ba8f6fb2066c21d6 /home/whateverhuis/AndroidStudioProjects/NmbrProject/Nmbr/src/main/res/drawable-hdpi/ic_launcher.png
 1370081642000 211 4e1904afba59d31e5cd6133f6a4c360fa9a5913f /home/whateverhuis/AndroidStudioProjects/NmbrProject/Nmbr/src/main/res/values/dimens.xml
 1370081641000 14315 2bdda68cbaaa3fcbb5ea5468e384b4efcf48db61 /home/whateverhuis/AndroidStudioProjects/NmbrProject/Nmbr/src/main/res/drawable-xhdpi/ic_launcher.png
@@ -11,6 +12,6 @@
 1370081642000 244 045ff451db7cd8e61285502b8c9bbf7405f2078d /home/whateverhuis/AndroidStudioProjects/NmbrProject/Nmbr/src/main/res/menu/nmbr.xml
 1370081641000 381 b129b276e01126de5b3b753572ac67cbfc19454c /home/whateverhuis/AndroidStudioProjects/NmbrProject/Nmbr/src/main/res/values-v14/styles.xml
 1370081641000 28281 b17c7acba10df899114469e1d74833335c9fb465 /home/whateverhuis/AndroidStudioProjects/NmbrProject/Nmbr/src/main/res/drawable-xxhdpi/ic_launcher.png
-1370081642000 641 50d4d2eb5f53d1c62f429a70cc80d0e09bcc81d0 /home/whateverhuis/AndroidStudioProjects/NmbrProject/Nmbr/src/main/res/layout/activity_main.xml
 1370081641000 4478 a2464e877ba152b20ffb6504f4bc9d8af469b3a1 /home/whateverhuis/AndroidStudioProjects/NmbrProject/Nmbr/src/main/res/drawable-mdpi/ic_launcher.png
+1370090269000 780 a393c4e7bb238db29c5e05e47c622b583b10ed43 /home/whateverhuis/AndroidStudioProjects/NmbrProject/Nmbr/src/main/res/layout/activity_main.xml
 1370081641000 680 c76f4caaa7a8dfe9727fa93001b3aee3b22d6716 /home/whateverhuis/AndroidStudioProjects/NmbrProject/Nmbr/src/main/res/values/styles.xml

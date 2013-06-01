@@ -104,6 +104,20 @@
                 path="/home/whateverhuis/AndroidStudioProjects/NmbrProject/Nmbr/src/main/res/drawable-mdpi/ic_launcher.png"
                 qualifiers="mdpi"
                 type="drawable" />
+            <file
+                path="/home/whateverhuis/AndroidStudioProjects/NmbrProject/Nmbr/src/main/res/values/images.xml"
+                qualifiers="" >
+                <integer-array name="d2" >
+                    <item>
+12345
+                    </item>
+                </integer-array>
+                <integer-array name="d1" >
+                    <item>
+12345
+                    </item>
+                </integer-array>
+            </file>
         </source>
         <source path="/home/whateverhuis/AndroidStudioProjects/NmbrProject/Nmbr/build/res/rs/debug" />
     </dataSet>

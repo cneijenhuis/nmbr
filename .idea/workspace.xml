@@ -11,26 +11,39 @@
       </filter>
     </filters>
   </component>
+  <component name="AndroidLayoutPreviewToolWindow">
+    <option name="state">
+      <GlobalState />
+    </option>
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="INFO" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Unnamed-0" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a68706d7-e368-458e-acde-250582e2835a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nmbr/src/main/java/co/appeti/hack/nmbr/DownloadPhotoTask.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nmbr/src/main/res/values/images.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nmbr/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Nmbr/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nmbr/src/main/java/co/appeti/hack/nmbr/DownloadPhotoTask.java" afterPath="$PROJECT_DIR$/Nmbr/src/main/java/co/appeti/hack/nmbr/DownloadPhotoTask.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nmbr/src/main/java/co/appeti/hack/nmbr/Nmbr.java" afterPath="$PROJECT_DIR$/Nmbr/src/main/java/co/appeti/hack/nmbr/Nmbr.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nmbr/build/source/r/debug/co/appeti/hack/nmbr/R.java" afterPath="$PROJECT_DIR$/Nmbr/build/source/r/debug/co/appeti/hack/nmbr/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nmbr/build/res/all/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/Nmbr/build/res/all/debug/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nmbr/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/Nmbr/src/main/res/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nmbr/src/main/res/values/images.xml" afterPath="$PROJECT_DIR$/Nmbr/src/main/res/values/images.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nmbr/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/Nmbr/build/res/all/debug/values/values.xml" />
     </list>
     <ignored path="Nmbr.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="a68706d7-e368-458e-acde-250582e2835a" time="1370086397327" ignored="false" />
-    <file path="/Nmbr.java" changelist="a68706d7-e368-458e-acde-250582e2835a" time="1370087583766" ignored="false" />
+    <file path="/Nmbr.java" changelist="a68706d7-e368-458e-acde-250582e2835a" time="1370090570956" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/android/lib/android.jar!/org/jetbrains/android/android.xsd" changelist="a68706d7-e368-458e-acde-250582e2835a" time="1370084973011" ignored="false" />
-    <file path="/DownloadPhotoTask.java" changelist="a68706d7-e368-458e-acde-250582e2835a" time="1370089141777" ignored="false" />
-    <file path="/images.xml" changelist="a68706d7-e368-458e-acde-250582e2835a" time="1370089694415" ignored="false" />
+    <file path="/DownloadPhotoTask.java" changelist="a68706d7-e368-458e-acde-250582e2835a" time="1370090657839" ignored="false" />
+    <file path="/images.xml" changelist="a68706d7-e368-458e-acde-250582e2835a" time="1370091048128" ignored="false" />
+    <file path="/activity_main.xml" changelist="a68706d7-e368-458e-acde-250582e2835a" time="1370090266775" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,10 +104,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Nmbr.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Nmbr.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Nmbr/src/main/java/co/appeti/hack/nmbr/Nmbr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0">
+            <state line="25" column="23" selection-start="922" selection-end="922" vertical-scroll-proportion="0.40441176">
               <folding />
             </state>
           </provider>
@@ -103,7 +116,7 @@
       <file leaf-file-name="DownloadPhotoTask.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Nmbr/src/main/java/co/appeti/hack/nmbr/DownloadPhotoTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="29" selection-start="1632" selection-end="1632" vertical-scroll-proportion="0.0">
+            <state line="32" column="0" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,10 +124,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="images.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Nmbr/src/main/res/layout/activity_main.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="33" selection-start="760" selection-end="760" vertical-scroll-proportion="-10.8">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="images.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Nmbr/src/main/res/values/images.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="25" selection-start="184" selection-end="184" vertical-scroll-proportion="0.22167487">
+            <state line="11" column="12" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -123,7 +148,7 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Nmbr/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0">
+            <state line="12" column="0" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -148,6 +173,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Nmbr/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/Nmbr/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/Nmbr/src/main/java/co/appeti/hack/nmbr/Nmbr.java" />
         <option value="$PROJECT_DIR$/Nmbr/src/main/java/co/appeti/hack/nmbr/DownloadPhotoTask.java" />
         <option value="$PROJECT_DIR$/Nmbr/src/main/res/values/images.xml" />
@@ -293,6 +319,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nmbr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NmbrProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nmbr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -559,12 +615,12 @@
       <changelist id="a68706d7-e368-458e-acde-250582e2835a" name="Default" comment="" />
       <created>1370081642393</created>
       <updated>1370081642393</updated>
-      <workItem from="1370081661413" duration="7554000" />
+      <workItem from="1370081661413" duration="9307000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7554000" />
+    <option name="totallyTimeSpent" value="9307000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -591,19 +647,20 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.6272" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3088" sideWeight="0.17651515" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3056" sideWeight="0.17651515" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3088" sideWeight="0.82348484" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3056" sideWeight="0.82348484" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2689394" sideWeight="0.6912" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2689394" sideWeight="0.6944" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -674,13 +731,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Nmbr/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Nmbr/src/main/java/com/baseapp/eyeem/androidsdk/query/EyeemPhotosQuery.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="13" selection-start="179" selection-end="179" vertical-scroll-proportion="0.11749347">
@@ -688,25 +738,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Nmbr/src/main/java/co/appeti/hack/nmbr/Nmbr.java">
+    <entry file="file://$PROJECT_DIR$/Nmbr/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0">
+        <state line="12" column="0" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nmbr/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="33" selection-start="760" selection-end="760" vertical-scroll-proportion="-10.8">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nmbr/src/main/res/values/images.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="12" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Nmbr/src/main/java/co/appeti/hack/nmbr/DownloadPhotoTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="29" selection-start="1632" selection-end="1632" vertical-scroll-proportion="0.0">
+        <state line="32" column="0" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Nmbr/src/main/res/values/images.xml">
+    <entry file="file://$PROJECT_DIR$/Nmbr/src/main/java/co/appeti/hack/nmbr/Nmbr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="25" selection-start="184" selection-end="184" vertical-scroll-proportion="0.22167487">
+        <state line="25" column="23" selection-start="922" selection-end="922" vertical-scroll-proportion="0.40441176">
           <folding />
         </state>
       </provider>
