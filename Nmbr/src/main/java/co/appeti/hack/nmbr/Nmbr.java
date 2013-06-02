@@ -5,6 +5,7 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.Chronometer;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.baseapp.eyeem.androidsdk.api.EyeEmAPI;
 import com.baseapp.eyeem.androidsdk.api.EyeemConnect;
@@ -35,7 +36,12 @@ public class Nmbr extends EyeemConnect {
         return true;
     }
 
+    public void showDownloadToast() {
+        Toast.makeText(this, "Downloading from EyeEm...", Toast.LENGTH_LONG).show();
+    }
+
     public void startPresetDownloads(View v) {
+        showDownloadToast();
         for (int i = 0; i < 60; i++) {
             DownloadPhotoTask dpt = new DownloadPhotoTask(api, (ImageView)findViewById(R.id.hour));
             dpt.execute(i);
@@ -43,6 +49,6 @@ public class Nmbr extends EyeemConnect {
     }
 
     public void fetchNewImages(View v) {
-
+        showDownloadToast();
     }
 }

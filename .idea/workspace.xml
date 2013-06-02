@@ -29,32 +29,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a68706d7-e368-458e-acde-250582e2835a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nmbr/src/main/java/co/appeti/hack/nmbr/NmbrWidgetProviderBordered.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nmbr/src/main/java/co/appeti/hack/nmbr/TimerUpdaterWidgetBorder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nmbr/src/main/java/co/appeti/hack/nmbr/UpdateServiceBordered.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nmbr/src/main/res/layout/hourandminuteimages_withborder.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nmbr/src/main/res/xml/nmbr_appwidgetprovider_bordered.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Nmbr/src/main/res/res/drawable-hdpi/frame_right.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Nmbr/src/main/res/res/drawable-ldpi/frame_right.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Nmbr/src/main/res/res/drawable-mdpi/frame_right.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Nmbr/src/main/res/res/drawable-xhdpi/frame_right.9.png" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Nmbr/src/main/res/drawable-xhdpi/frame_left.png" afterPath="$PROJECT_DIR$/Nmbr/src/main/res/drawable-xhdpi/frame_left_hardcoded.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Nmbr/src/main/res/drawable-xhdpi/frame_right.png" afterPath="$PROJECT_DIR$/Nmbr/src/main/res/drawable-xhdpi/frame_right_hardcoded.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Nmbr/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/Nmbr/src/main/res/layout/hourandminuteimages.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nmbr/src/main/res/drawable-xhdpi/frame_left.9.png" afterPath="$PROJECT_DIR$/Nmbr/src/main/res/drawable-xhdpi/frame_left.9.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nmbr/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Nmbr/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nmbr/src/main/java/co/appeti/hack/nmbr/Nmbr.java" afterPath="$PROJECT_DIR$/Nmbr/src/main/java/co/appeti/hack/nmbr/Nmbr.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nmbr/src/main/java/co/appeti/hack/nmbr/TimeUpdater.java" afterPath="$PROJECT_DIR$/Nmbr/src/main/java/co/appeti/hack/nmbr/TimeUpdater.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nmbr/src/main/java/co/appeti/hack/nmbr/TimeUpdaterWidget.java" afterPath="$PROJECT_DIR$/Nmbr/src/main/java/co/appeti/hack/nmbr/TimeUpdaterWidget.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nmbr/src/main/java/co/appeti/hack/nmbr/UpdateService.java" afterPath="$PROJECT_DIR$/Nmbr/src/main/java/co/appeti/hack/nmbr/UpdateService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nmbr/src/main/res/layout/nmbr_activity.xml" afterPath="$PROJECT_DIR$/Nmbr/src/main/res/layout/nmbr_activity.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nmbr/src/main/res/xml/nmbr_appwidgetprovider.xml" afterPath="$PROJECT_DIR$/Nmbr/src/main/res/xml/nmbr_appwidgetprovider.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Nmbr.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="a68706d7-e368-458e-acde-250582e2835a" time="1370162261031" ignored="false" />
-    <file path="/Nmbr.java" changelist="a68706d7-e368-458e-acde-250582e2835a" time="1370169092161" ignored="false" />
+    <file path="/Nmbr.java" changelist="a68706d7-e368-458e-acde-250582e2835a" time="1370172155220" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/android/lib/android.jar!/org/jetbrains/android/android.xsd" changelist="a68706d7-e368-458e-acde-250582e2835a" time="1370084973011" ignored="false" />
     <file path="/DownloadPhotoTask.java" changelist="a68706d7-e368-458e-acde-250582e2835a" time="1370162132237" ignored="false" />
     <file path="/images.xml" changelist="a68706d7-e368-458e-acde-250582e2835a" time="1370092186673" ignored="false" />
@@ -67,18 +49,17 @@
     <file path="/fragment.java" changelist="a68706d7-e368-458e-acde-250582e2835a" time="1370106875069" ignored="false" />
     <file path="/TimeUpdaterWidget.java" changelist="a68706d7-e368-458e-acde-250582e2835a" time="1370169364360" ignored="false" />
     <file path="/TimeUpdaterRef.java" changelist="a68706d7-e368-458e-acde-250582e2835a" time="1370163724776" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="a68706d7-e368-458e-acde-250582e2835a" time="1370171127855" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="a68706d7-e368-458e-acde-250582e2835a" time="1370171905032" ignored="false" />
     <file path="/nmbr_appwidgetprovider.xml" changelist="a68706d7-e368-458e-acde-250582e2835a" time="1370113971491" ignored="false" />
     <file path="/playingaround_appwidget.xml" changelist="a68706d7-e368-458e-acde-250582e2835a" time="1370115530352" ignored="false" />
     <file path="/NmbrWidgetProvider.java" changelist="a68706d7-e368-458e-acde-250582e2835a" time="1370119417161" ignored="false" />
     <file path="/UpdateService.java" changelist="a68706d7-e368-458e-acde-250582e2835a" time="1370168031358" ignored="false" />
-    <file path="/nmbr_activity.xml" changelist="a68706d7-e368-458e-acde-250582e2835a" time="1370163027161" ignored="false" />
+    <file path="/nmbr_activity.xml" changelist="a68706d7-e368-458e-acde-250582e2835a" time="1370172064038" ignored="false" />
     <file path="/hourandminuteimages_withborder.xml" changelist="a68706d7-e368-458e-acde-250582e2835a" time="1370170337973" ignored="false" />
     <file path="/TimerUpdaterWidgetBorder.java" changelist="a68706d7-e368-458e-acde-250582e2835a" time="1370167956502" ignored="false" />
     <file path="/NmbrWidgetProviderBordered.java" changelist="a68706d7-e368-458e-acde-250582e2835a" time="1370167632535" ignored="false" />
     <file path="/UpdateServiceBordered.java" changelist="a68706d7-e368-458e-acde-250582e2835a" time="1370167616600" ignored="false" />
     <file path="/nmbr_appwidgetprovider_bordered.xml" changelist="a68706d7-e368-458e-acde-250582e2835a" time="1370168642197" ignored="false" />
-    <file path="$PROJECT_DIR$/Nmbr/build/source/r/debug/co/appeti/hack/nmbr/R.java" changelist="a68706d7-e368-458e-acde-250582e2835a" time="1370171384888" ignored="false" />
     <file path="$PROJECT_DIR$/Nmbr/build/res/all/debug/layout/hourandminuteimages_withborder.xml" changelist="a68706d7-e368-458e-acde-250582e2835a" time="1370171384888" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -152,10 +133,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Nmbr/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="84" selection-start="1964" selection-end="1964" vertical-scroll-proportion="0.84766585">
+            <state line="17" column="67" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="tag#uses-sdk#0;tag#manifest#0" expanded="false" />
                 <element signature="e#562#580#0" expanded="true" />
@@ -169,6 +150,27 @@
                 <element signature="tag#meta-data#0;tag#receiver#1;tag#application#0;tag#manifest#0" expanded="false" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Nmbr.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Nmbr/src/main/java/co/appeti/hack/nmbr/Nmbr.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="83" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nmbr_activity.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Nmbr/src/main/res/layout/nmbr_activity.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="42" selection-start="262" selection-end="262" vertical-scroll-proportion="0.19633508">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -193,7 +195,6 @@
         <option value="$PROJECT_DIR$/Nmbr/src/main/res/xml/nmbr_appwidgetprovider.xml" />
         <option value="$PROJECT_DIR$/Nmbr/src/main/java/co/appeti/hack/nmbr/DownloadPhotoTask.java" />
         <option value="$PROJECT_DIR$/Nmbr/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/Nmbr/src/main/res/layout/nmbr_activity.xml" />
         <option value="$PROJECT_DIR$/Nmbr/src/main/java/co/appeti/hack/nmbr/TimeUpdaterRef.java" />
         <option value="$PROJECT_DIR$/Nmbr/src/main/java/co/appeti/hack/nmbr/TimeUpdater.java" />
         <option value="$PROJECT_DIR$/Nmbr/src/main/java/co/appeti/hack/nmbr/UpdateServiceBordered.java" />
@@ -202,10 +203,11 @@
         <option value="$PROJECT_DIR$/Nmbr/src/main/java/co/appeti/hack/nmbr/UpdateService.java" />
         <option value="$PROJECT_DIR$/Nmbr/build/res/all/debug/layout/hourandminuteimages_withborder.xml" />
         <option value="$PROJECT_DIR$/Nmbr/src/main/res/xml/nmbr_appwidgetprovider_bordered.xml" />
-        <option value="$PROJECT_DIR$/Nmbr/src/main/java/co/appeti/hack/nmbr/Nmbr.java" />
         <option value="$PROJECT_DIR$/Nmbr/src/main/java/co/appeti/hack/nmbr/TimeUpdaterWidget.java" />
         <option value="$PROJECT_DIR$/Nmbr/src/main/res/layout/hourandminuteimages_withborder.xml" />
         <option value="$PROJECT_DIR$/Nmbr/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/Nmbr/src/main/java/co/appeti/hack/nmbr/Nmbr.java" />
+        <option value="$PROJECT_DIR$/Nmbr/src/main/res/layout/nmbr_activity.xml" />
       </list>
     </option>
   </component>
@@ -715,12 +717,12 @@
       <workItem from="1370081661413" duration="20285000" />
       <workItem from="1370105390721" duration="4918000" />
       <workItem from="1370112593263" duration="11627000" />
-      <workItem from="1370124475447" duration="11878000" />
+      <workItem from="1370124475447" duration="12685000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48708000" />
+    <option name="totallyTimeSpent" value="49515000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -744,10 +746,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-1" width="1368" height="770" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5408" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.5408" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.6928" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852808" sideWeight="0.6928" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28528073" sideWeight="0.5744" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -758,12 +760,12 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3072" sideWeight="0.82348484" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3072" sideWeight="0.82348484" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2689394" sideWeight="0.6928" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2693475" sideWeight="0.6928" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -857,15 +859,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Nmbr/src/main/java/co/appeti/hack/nmbr/TimeUpdater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="1514" selection-end="1514" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Nmbr/src/main/res/xml/nmbr_appwidgetprovider.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="48" selection-start="257" selection-end="257" vertical-scroll-proportion="0.12520868">
@@ -961,13 +954,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Nmbr/src/main/java/co/appeti/hack/nmbr/Nmbr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="51" selection-start="994" selection-end="994" vertical-scroll-proportion="0.37562606">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Nmbr/src/main/res/layout/hourandminuteimages_withborder.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="33" selection-start="339" selection-end="339" vertical-scroll-proportion="20.2">
@@ -980,7 +966,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Nmbr/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="84" selection-start="1964" selection-end="1964" vertical-scroll-proportion="0.84766585">
+        <state line="17" column="67" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="tag#uses-sdk#0;tag#manifest#0" expanded="false" />
             <element signature="e#562#580#0" expanded="true" />
@@ -994,6 +980,23 @@
             <element signature="tag#meta-data#0;tag#receiver#1;tag#application#0;tag#manifest#0" expanded="false" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nmbr/src/main/java/co/appeti/hack/nmbr/Nmbr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="83" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nmbr/src/main/res/layout/nmbr_activity.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="42" selection-start="262" selection-end="262" vertical-scroll-proportion="0.19633508">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
   </component>
