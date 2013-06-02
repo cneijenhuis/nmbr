@@ -21,12 +21,12 @@ public class TimeUpdaterRef extends TimeUpdater {
         this.minuteView = inuteView;
     }
 
-    public void setHourBitmap(Bitmap bm) {
-        hourView.setImageBitmap(bm);
+    public void setHourBitmap(BitmapWithFile bm) {
+        hourView.setImageBitmap(bm.bitmap);
     }
 
-    public void setMinuteBitmap(Bitmap bm) {
-        minuteView.setImageBitmap(bm);
+    public void setMinuteBitmap(BitmapWithFile bm) {
+        minuteView.setImageBitmap(bm.bitmap);
     }
 
     public void startTimer() {

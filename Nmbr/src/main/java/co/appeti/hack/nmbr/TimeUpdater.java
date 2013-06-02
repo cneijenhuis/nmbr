@@ -17,6 +17,15 @@ import java.util.Random;
  * Created by whateverhuis on 6/1/13.
  */
 public abstract class TimeUpdater {
+    protected class BitmapWithFile {
+        public final Bitmap bitmap;
+        public final String filename;
+
+        private BitmapWithFile(Bitmap bitmap, String filename) {
+            this.bitmap = bitmap;
+            this.filename = filename;
+        }
+    }
     public static final String SHARED_PREF = "co.appeti.nmbr.hour";
     private File rootdir;
     private File hourFile;
@@ -33,25 +42,25 @@ public abstract class TimeUpdater {
         return imgIds[r.nextInt(imgIds.length)];
     }
 
-    public abstract void setHourBitmap(Bitmap bm);
+    public abstract void setHourBitmap(BitmapWithFile bm);
 
     public void chooseRandomHourScreen(int min) {
-        Bitmap bm = getRandomBitmap(min, true);
+        BitmapWithFile bm = getRandomBitmap(min, true);
         setHourBitmap(bm);
     }
 
-    public abstract void setMinuteBitmap(Bitmap bm);
+    public abstract void setMinuteBitmap(BitmapWithFile bm);
 
     public void chooseRandomMinuteScreen(int min) {
-        Bitmap bm = getRandomBitmap(min, false);
+        BitmapWithFile bm = getRandomBitmap(min, false);
         setMinuteBitmap(bm);
     }
 
-    private Bitmap getRandomBitmap(int min, boolean saveAsHour) {
+    private BitmapWithFile getRandomBitmap(int min, boolean saveAsHour) {
         File nmbrDir = new File(rootdir, "nmbr" + min);
 
         File[] files = nmbrDir.listFiles();
-        if (files == null || files.length <= 0) return null;
+        if (files == null || files.length <= 0) return new BitmapWithFile(null, "");
         File f = random(files, saveAsHour);
         // Make sure we are not displaying the same file twice, if possible
         if (!saveAsHour && files.length >= 2 && f.equals(hourFile)) {
@@ -59,7 +68,7 @@ public abstract class TimeUpdater {
             if (f.equals(hourFile)) f = files[1];
         }
         if (saveAsHour) hourFile = f;
-        return BitmapFactory.decodeFile(f.getPath());
+        return new BitmapWithFile(BitmapFactory.decodeFile(f.getPath()), f.getName().replace(".jpg", ""));
     }
 
     protected abstract String getSharedPrefName();

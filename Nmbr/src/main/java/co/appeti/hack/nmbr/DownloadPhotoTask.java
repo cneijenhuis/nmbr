@@ -115,7 +115,7 @@ R.array.d59};
                 File rootdir = new File(Environment.getExternalStorageDirectory(), "nmbr");
                 File nmbrDir = new File(rootdir, "nmbr" + aid);
                 nmbrDir.mkdirs();
-                File f = new File(nmbrDir, photo.filename + ".jpg");
+                File f = new File(nmbrDir, id + ".jpg");
                 if (f.exists())  {
                     //System.out.println("File already loaded");
                     continue;

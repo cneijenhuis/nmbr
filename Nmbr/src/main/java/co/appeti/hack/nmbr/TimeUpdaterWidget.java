@@ -1,9 +1,12 @@
 package co.appeti.hack.nmbr;
 
+import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
 import android.content.ComponentName;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
+import android.net.Uri;
 import android.widget.Chronometer;
 import android.widget.RemoteViews;
 
@@ -12,20 +15,30 @@ import android.widget.RemoteViews;
  */
 public class TimeUpdaterWidget extends TimeUpdater {
     RemoteViews views;
+    Context context;
 
-    public TimeUpdaterWidget(){
+    public TimeUpdaterWidget(Context c){
         super();
+        context = c;
         views = new RemoteViews("co.appeti.hack.nmbr", R.layout.activity_main);
     }
 
     @Override
-    public void setHourBitmap(Bitmap bm) {
-        views.setImageViewBitmap(R.id.hour, bm);
+    public void setHourBitmap(BitmapWithFile bm) {
+        int viewId = R.id.hour;
+        setBitmap(bm, viewId);
+    }
+
+    private void setBitmap(BitmapWithFile bm, int viewId) {
+        views.setImageViewBitmap(viewId, bm.bitmap);
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.eyeem.com/p/" + bm.filename));
+        PendingIntent pi = PendingIntent.getActivity(context, 1, intent, PendingIntent.FLAG_ONE_SHOT);
+        views.setOnClickPendingIntent(viewId, pi);
     }
 
     @Override
-    public void setMinuteBitmap(Bitmap bm) {
-        views.setImageViewBitmap(R.id.minute, bm);
+    public void setMinuteBitmap(BitmapWithFile bm) {
+        setBitmap(bm, R.id.minute);
     }
 
     public RemoteViews getViews() {
@@ -37,7 +50,7 @@ public class TimeUpdaterWidget extends TimeUpdater {
 
         int[] appWidgetIds = appWidgetManager.getAppWidgetIds(new ComponentName(c, NmbrWidgetProvider.class));
 
-        TimeUpdaterWidget timeUpdater = new TimeUpdaterWidget();
+        TimeUpdaterWidget timeUpdater = new TimeUpdaterWidget(c);
         timeUpdater.update(c);
         for (int i = 0; i < appWidgetIds.length; i++) {
             appWidgetManager.updateAppWidget(appWidgetIds[i], timeUpdater.getViews());
