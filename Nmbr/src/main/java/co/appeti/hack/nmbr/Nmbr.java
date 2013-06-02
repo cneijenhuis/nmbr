@@ -2,6 +2,7 @@ package co.appeti.hack.nmbr;
 
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.View;
 import android.widget.Chronometer;
 import android.widget.ImageView;
 
@@ -15,14 +16,9 @@ public class Nmbr extends EyeemConnect {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.nmbr_activity);
         // This is my private API key. Don't misuse it, please! :)
         api = new EyeEmAPI("NB0G4tTwmpQ3Ve0r6BDwxpiIdIIEhjYp");
-
-        for (int i = 0; i < 60; i++) {
-            DownloadPhotoTask dpt = new DownloadPhotoTask(api, (ImageView)findViewById(R.id.hour));
-            dpt.execute(i);
-        }
 
         Chronometer chrono = (Chronometer) findViewById(R.id.chronometer);
         ImageView hourView = (ImageView) findViewById(R.id.hour);
@@ -36,5 +32,16 @@ public class Nmbr extends EyeemConnect {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.nmbr, menu);
         return true;
+    }
+
+    public void startPresetDownloads(View v) {
+        for (int i = 0; i < 60; i++) {
+            DownloadPhotoTask dpt = new DownloadPhotoTask(api, (ImageView)findViewById(R.id.hour));
+            dpt.execute(i);
+        }
+    }
+
+    public void fetchNewImages(View v) {
+
     }
 }

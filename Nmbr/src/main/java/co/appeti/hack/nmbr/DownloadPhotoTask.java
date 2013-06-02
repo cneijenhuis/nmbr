@@ -104,28 +104,29 @@ R.array.d59};
         int[] imgIds = view.getResources().getIntArray(nmbrs[aid]);
         //int id = randomId(imgIds);
         for (int id : imgIds) {
-            if (id == 0) break;
+            if (id == 0) continue;
 
             EyeemPhotosQuery photosQuery = new EyeemPhotosQuery();
             photosQuery.firstId = id;
             try {
                 HashMap<String, Object> map = api.getRequest(photosQuery.transformQuery());
                 EyeemPhoto photo = (EyeemPhoto) map.get("photo");
-                HttpURLConnection conn = (HttpURLConnection) (new URL(photo.photoUrl)).openConnection();
-                conn.setRequestMethod("GET");
-                conn.connect();
 
                 File rootdir = new File(Environment.getExternalStorageDirectory(), "nmbr");
                 File nmbrDir = new File(rootdir, "nmbr" + aid);
                 nmbrDir.mkdirs();
-                File f = new File(nmbrDir, photo.filename + ".jpg");
+                File f = new File(nmbrDir, id + ".jpg");
                 if (f.exists())  {
                     //System.out.println("File already loaded");
-                    break;
+                    continue;
                 }
+                System.out.println("Downloading " + photo.photoId);
                 f.createNewFile();
                 FileOutputStream fos = new FileOutputStream(f);
 
+                HttpURLConnection conn = (HttpURLConnection) (new URL(photo.photoUrl)).openConnection();
+                conn.setRequestMethod("GET");
+                conn.connect();
                 InputStream is = conn.getInputStream();
                 byte[] buffer = new byte[2048];
                 int bytesRead = 0;
