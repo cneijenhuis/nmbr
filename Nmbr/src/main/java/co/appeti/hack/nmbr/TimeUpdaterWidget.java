@@ -5,9 +5,7 @@ import android.appwidget.AppWidgetManager;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Bitmap;
 import android.net.Uri;
-import android.widget.Chronometer;
 import android.widget.RemoteViews;
 
 /**
@@ -17,10 +15,14 @@ public class TimeUpdaterWidget extends TimeUpdater {
     RemoteViews views;
     Context context;
 
+    public static int getLayoutId() {
+        return R.layout.hourandminuteimages_withborder;
+    }
+
     public TimeUpdaterWidget(Context c){
         super();
         context = c;
-        views = new RemoteViews("co.appeti.hack.nmbr", R.layout.activity_main);
+        views = new RemoteViews("co.appeti.hack.nmbr", getLayoutId());
     }
 
     @Override
@@ -46,8 +48,6 @@ public class TimeUpdaterWidget extends TimeUpdater {
     }
 
     public static void onUpdate(Context c, AppWidgetManager appWidgetManager) {
-        System.out.println("on update");
-
         int[] appWidgetIds = appWidgetManager.getAppWidgetIds(new ComponentName(c, NmbrWidgetProvider.class));
 
         TimeUpdaterWidget timeUpdater = new TimeUpdaterWidget(c);

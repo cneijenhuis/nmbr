@@ -30,6 +30,8 @@ public abstract class TimeUpdater {
     private File rootdir;
     private File hourFile;
 
+    public boolean useMinutesInsteadOfHours = false;
+
     public TimeUpdater() {
         this.rootdir = new File(Environment.getExternalStorageDirectory(), "nmbr");
     }
@@ -37,8 +39,16 @@ public abstract class TimeUpdater {
     protected File random(File[] imgIds, boolean saveAsHour) {
         long now = System.currentTimeMillis();
         Random r;
-        if (saveAsHour) r = new Random(now - (now % (60 * 1000)));
-        else r = new Random();
+        int modulo;
+        if (saveAsHour) {
+            modulo = 60 * 60 * 1000;
+            if (useMinutesInsteadOfHours) modulo = 60 * 1000;
+        }
+        else {
+            modulo = 60 * 1000;
+            if (useMinutesInsteadOfHours) modulo = 1000;
+        }
+        r = new Random(now - (now % modulo));
         return imgIds[r.nextInt(imgIds.length)];
     }
 
@@ -75,8 +85,12 @@ public abstract class TimeUpdater {
 
     public void update(Context context) {
         Calendar c = Calendar.getInstance();
-        int min = c.get(Calendar.MINUTE);
-        int sec = c.get(Calendar.SECOND);
+        int min = c.get(Calendar.HOUR_OF_DAY);
+        int sec = c.get(Calendar.MINUTE);
+        if (useMinutesInsteadOfHours) {
+            min = c.get(Calendar.MINUTE);
+            sec = c.get(Calendar.SECOND);
+        }
         chooseRandomHourScreen(min);
         chooseRandomMinuteScreen(sec);
     }

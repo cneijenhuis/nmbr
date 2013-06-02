@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="134dp"
+        android:id="@+id/nmbr_layout"
+        tools:context=".Nmbr">
+
+        <Chronometer
+                android:id="@+id/chronometer"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                tools:ignore="Suspicious0dp"/>
+
+        <ImageView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+                android:scaleType="centerCrop"
+                android:id="@+id/hour" />
+
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:layout_toRightOf="@id/hour"
+            android:scaleType="centerCrop"
+            android:id="@+id/minute" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:tools="http://schemas.android.com/tools"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentTop="true"
+                  android:id="@+id/nmbr_layout"
+                  tools:context=".Nmbr">
+
+        <ImageView
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/frame_left_hardcoded"
+                android:id="@+id/hour_border" />
+
+        <ImageView
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/frame_right_hardcoded"
+                android:layout_toRightOf="@id/hour_border"
+                android:id="@+id/minute_border" />
+
+    </LinearLayout>
+
+</RelativeLayout>

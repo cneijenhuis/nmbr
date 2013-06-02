@@ -24,6 +24,7 @@ public class Nmbr extends EyeemConnect {
         ImageView hourView = (ImageView) findViewById(R.id.hour);
         ImageView minuteView = (ImageView) findViewById(R.id.minute);
         timeUpdater = new TimeUpdaterRef(chrono, hourView, minuteView);
+        timeUpdater.useMinutesInsteadOfHours = true;
         timeUpdater.startTimer();
     }
 

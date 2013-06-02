@@ -4,8 +4,8 @@
                     android:minWidth="110dp"
                     android:minHeight="40dp"
                     android:updatePeriodMillis="0"
-                    android:initialLayout="@layout/playingaround_appwidget"
-                    android:initialKeyguardLayout="@layout/hourandminuteimages"
+                    android:initialLayout="@layout/hourandminuteimages_withborder"
+                    android:initialKeyguardLayout="@layout/hourandminuteimages_withborder"
                     android:autoAdvanceViewId="@id/hour"
                     android:resizeMode="horizontal|vertical"
                     android:widgetCategory="home_screen|keyguard">
