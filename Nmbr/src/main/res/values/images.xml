@@ -11,12 +11,13 @@
         <item>13604597</item>
     </integer-array>
 <integer-array name="d3">
+        <item>13877940</item>
         <item>10140826</item>
         <item>153528</item>
         <item>12091855</item>
         <item>5796008</item>
         <item>2299484</item>
-        <item>13877940</item>
+        <item>13901058</item>
     </integer-array>
 <integer-array name="d4">
         <item>6995272</item>
@@ -147,6 +148,8 @@
         <item>737313</item>
     </integer-array>
 <integer-array name="d30">
+        <item>12924015</item>
+        <item>12553902</item>
         <item>12983098</item>
         <item>849671</item>
         <item>2917461</item>
@@ -197,7 +200,7 @@
         <item>13878799</item>
     </integer-array>
 <integer-array name="d43">
-        <item>13878687</item>
+        <item>13900982</item>
     </integer-array>
 <integer-array name="d44">
         <item>1407801</item>
